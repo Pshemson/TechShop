@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Header Section */
+.campaignDiv {
+    width: 100%;
+    background-color: #E3E3E3;
+    text-align: center;
+    font-size: 14px;
+}
+
+.campaignDiv p {
+    font-size: inherit;
+    padding: 11px;
+}
