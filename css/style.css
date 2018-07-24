@@ -10,9 +10,8 @@ html, body {
 }
 
 
-/* Header Section */
+/* Menu Section */
 .campaignDiv {
-    width: 100%;
     background-color: #E3E3E3;
     text-align: center;
     font-size: 14px;
@@ -22,3 +21,60 @@ html, body {
     font-size: inherit;
     padding: 11px;
 }
+
+.menuDiv {
+    background-color: #EFEAEE;
+    padding: 40px;
+    position: relative;
+}
+
+.menuDiv ul {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.menuDiv ul::after {
+    content: "";
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    left: 34%;
+    bottom: 22px;
+    width: 32%;
+    background-color: black;
+}
+
+
+.menuDiv li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 22px 0 22px;
+}
+
+.menuDiv li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menuDiv li a:hover {
+    font-weight: bold;
+}
+
+.logoIcon {
+    position: absolute;
+    top: 12px;
+}
+
+.cartIcon {
+    position: absolute;
+    right: 25px;
+    top: 37px;
+}
+
+/* Welcome Section */
+.welcomeSection {
+    background-size: cover;
+    background: url("../Images/cellphone.jpg")
+}
+
