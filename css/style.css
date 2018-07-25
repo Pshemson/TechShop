@@ -9,6 +9,15 @@ html, body {
     font-size: 16px;
 }
 
+/* Mixins */
+
+
+
+
+
+
+
+
 
 /* Menu Section */
 .campaignDiv {
@@ -74,7 +83,27 @@ html, body {
 
 /* Welcome Section */
 .welcomeSection {
-    background-size: cover;
-    background: url("../Images/cellphone.jpg")
+    position: relative;
+    /*background-size: cover;
+    background: url("../Images/background.jpg")*/
+}
+
+.backgroundContainer {
+
+}
+
+.backgroundContainer img {
+    width: 192%;
+    max-width: none;
+    position: absolute;
+    left: -28%;
+}
+
+@media (min-width: 768px) {
+    .backgroundContainer img {
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+    }
 }
 
