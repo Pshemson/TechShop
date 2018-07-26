@@ -93,7 +93,6 @@ html, body {
 .welcomeSection img {
     width: 192%;
     max-width: none;
-    position: absolute;
     left: -28%;
 }
 
@@ -106,7 +105,7 @@ html, body {
 }
 
 .actionBackgroundButtons {
-    right: 34%;
+    right: 30%;
     position: absolute;
     top: 41px;
     text-align: center;
@@ -146,6 +145,73 @@ html, body {
     text-decoration: none;
 }
 
-.actionBackgroundButtons span a:hover {
+.actionBackgroundButtons span:hover a {
     color: white;
+}
+
+/* Footer Section */
+.footerSection {
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.footerNavigation {
+    padding: 37px;
+    background-color: #EFEAEE;
+    position: relative;
+}
+
+.footerNavigation li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 22px 0 22px;
+}
+
+.footerNavigation li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footerNavigation::after {
+    content: "";
+    border: 1px solid black;
+    display: block;
+    position: absolute;
+    left: 12%;
+    bottom: 5px;
+    width: 76%;
+    background-color: black;
+}
+
+.footerInformation {
+    padding: 37px;
+    background-color: #EFEAEE;
+}
+
+.footerInformation li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footerInformation li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.socialButtons {
+    background-color: #EFEAEE;
+}
+
+.socialButtons li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.socialButtons li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
