@@ -84,6 +84,7 @@ html, body {
 /* Welcome Section */
 .welcomeSection {
     position: relative;
+    overflow: hidden;
     /*background-size: cover;
     background: url("../Images/background.jpg")*/
 }
@@ -94,6 +95,7 @@ html, body {
     width: 192%;
     max-width: none;
     left: -28%;
+    position: relative;
 }
 
 @media (min-width: 768px) {
@@ -105,7 +107,7 @@ html, body {
 }
 
 .actionBackgroundButtons {
-    right: 30%;
+    right: 27%;
     position: absolute;
     top: 41px;
     text-align: center;
@@ -159,7 +161,7 @@ html, body {
 .footerNavigation {
     padding: 13px;
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 
 
