@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     font-family: monospace, sans-serif;
     font-size: 16px;
+    background-color: #EFEAEE;
 }
 
 /* Mixins */
@@ -195,6 +196,13 @@ html, body {
     font-size: 14px;
 }
 
+.footerNavigation li a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .footerNavigation::after {
     content: "";
     border: 1px solid black;
@@ -218,6 +226,7 @@ html, body {
         background-color: black;
     }
 }
+
 
 .footerInformation {
     padding: 18px;
@@ -291,4 +300,66 @@ html, body {
 
 .tittlePaysLogo {
     font-size: 13px;
+}
+
+/* Products section */
+
+.productsSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #EFEAEE;
+    padding: 30px;
+}
+
+.productsTitle h1 {
+    margin-bottom: 20px;
+}
+
+.productsTitle h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.categoryList {
+display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.categoryList::after {
+    content: "";
+    border: 1px solid #7B7B7B;
+    display: block;
+    position: absolute;
+    bottom: -29px;
+    width: 1200px;
+    background-color: #7B7B7B;
+}
+.categoryList li {
+    display: inline-block;
+    background-color: black;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 7px 9px 0 0;
+}
+
+.categoryList li:hover {
+    background-color: #EFEAEE;
+    border: 1px solid #7B7B7B;
+}
+
+
+
+.categoryList li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+.categoryList li:hover a {
+    color: #7B7B7B
 }
