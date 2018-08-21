@@ -1,4 +1,4 @@
-Simple project - online shop.
+Simple project - online shop (in progress)
 
 
 Basics of HTML5/CSS3
